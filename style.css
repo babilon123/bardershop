@@ -1,0 +1,336 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+.container {
+    background: black  url(img/backgrount-index.jpg) no-repeat ;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1px;
+    overflow: hidden;
+}
+.header {
+    background: black;
+}
+.top-nav {
+    height: 87px;
+    padding-left: 130px;
+}
+.top-nav li {
+    float: left;
+    display: block;
+    margin: 30px 10px 30px 10px;
+}
+.top-nav li a{
+    color: aliceblue;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 40px 10px 40px 10px;
+    font-weight: bold;
+}
+ li a:hover{
+    border-bottom: 5px solid #fff;
+    cursor: pointer;
+}
+.center-logo{
+    width: 369px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.features ul li{
+    width: 300px;
+    float: left;
+    color: aliceblue;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    list-style-type: none;
+    margin-left: 65px;
+}
+.title h2{
+    font-family: "PT Sans Narrow";
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    background-image: url(img/romb-title.png);
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.features p{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 16px;
+    line-height: 25px;
+}
+.title-just h2{
+    font-family: "PT Sans Narrow";
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 80px;;
+}
+.content{
+    width: 980px;
+    margin-top: 40px;
+    background: white;
+    margin-left: 125px;
+    overflow: hidden;
+}
+.clear {
+    clear: both;
+    float: none;
+    height: 0;
+    font-size: 0;
+}
+.content-left-colon{
+    float: left;
+    width: 400px;
+}
+.content-title h2 {
+    font-family: "PT Sans Narrow";
+    font-size: 29px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-top: 60px;
+    margin-left: 73px;
+}  
+.content-news li {
+    list-style-type: none;
+    margin-top: 40px; 
+    overflow: hidden;
+    
+}
+.content-news li a {
+    margin-left: 22px;
+    display: block;
+    text-decoration: none;
+    font-family: "PT Sans Narrow";
+    font-weight: bolder;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content-news li span {
+    display: block;
+    text-transform:;
+    margin-left: 30px;
+    padding-top: 2px;
+    font-style: italic;
+    font-size: 15px;
+}
+.btn {
+    background: #000 ;
+    color: #fff;
+    margin:  30px 60px 50px 60px;
+    border-radius: 0;
+    font-family: "PT Sans Narrow";
+    padding: 12px 30px 12px 30px;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+}
+
+.line-section{
+    width: 8px;
+    height: 278px;
+    float:left;
+    margin: 60px 0 0 100px;  
+}
+.content-right-colon{
+    float: left;
+    width: 460px;
+}
+.content-photo-title{
+    color: black;
+    margin-top: 55px;
+    margin-left: 80px;
+    
+}
+.content-photo-title h2{
+    font-family: "PT Sans Narrow";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.photo-galary{
+    display: block;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.form{
+   width: 460px;
+   margin-left: 40px;
+ 
+}
+.galery-control {
+     background: #000 ;
+     color: #fff;
+     margin:  30px 20px 50px 20px;
+     border-radius: 0;
+     font-family: "PT Sans Narrow";
+     padding: 12px 50px 12px 50px;
+     font-size: 13px;
+     font-weight: bold;
+     float: left;
+     display: block;
+}
+
+.contacts-title {
+    font-family: "PT Sans Narrow";
+    font-size: 29px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left: 73px;
+}
+.contacts-address{
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 40px;
+    
+}
+.contacts-address p{
+    font-family: "PT Sans Narrow";
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+.contacts-work-time{
+    width: 350px;
+    height: 78px;
+    margin-left: 73px;
+}
+.contacts-work-time p{
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contacts-control{   
+    width: 500px;
+    height: 100px;
+    margin-left: 70px;
+}
+.contacts-control a{
+    width: 115px;
+    height: 30px;
+    background: black;
+    float: left;
+    padding: 18px 50px 0 50px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 1px;
+    margin-top: 30px;
+    line-heigth: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.form-p{
+    width: 400px;
+    height: 74px;
+    margin-left:50px;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#orderForm{
+    width: 400px;
+    margin-left: 36px;
+}
+#orderForm input {
+    width: 130px;
+    height: 35px;
+    float: left;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px 20px 0 20px;
+    border: 2px solid #000;
+    padding-left: 5px;
+}
+.batton-input{
+    width: 320px;
+    height: 45px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 58px;
+}
+
+.batton-input a {
+    width: 210px;
+    height: 45px;
+    background: black;
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    padding-top: 16px;
+    padding-left: 100px;
+}
+.footer{
+    width: 1060px;
+    background: url("img/footer.png");
+    margin-left: 260px;
+}
+.footer-contact-address{
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 98px;
+    margin-bottom: 0px;
+    margin-left: 204.5px;
+    margin-right: 204.5px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    width: 960px;
+    zoom: 1;
+}
+.social-buttons{
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    font-family: 'PT Sans Narrow';
+    font-size: 14px;
+    font-weight: bold;
+    height: 98px;
+    text-transform: uppercase;
+    width: 149px;
+    zoom: 1;
+}
+.copyright{
+    color: rgb(255, 255, 255);
+    display: block;
+    float: right;
+    font-family: 'PT Sans Narrow';
+    font-size: 14px;
+    font-weight: bold;
+    height: 97px;
+    text-transform: uppercase;
+    width: 163px;
+    zoom: 1;
+}
+
+
+
+    
+
+    
+
+
+    
+
+
+ 
+
+
+    
